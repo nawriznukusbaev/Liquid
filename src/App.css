@@ -1,0 +1,44 @@
+.custom-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+.wrap{
+    display: flex;
+    flex-direction:column;
+    width:300px;
+    padding: 0;
+}
+.wrap-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wrap-row-border{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 1px dashed black;
+}
+.btn-primary{
+    margin-right: 15px;
+}
+.wrap-column-all-border{
+    background-color: #f43f62;
+    display: flex;
+    height: 150px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px dashed black;
+    align-items: center;
+}
+.state{
+    color: #4060fa;
+}
+.h20{
+    color: white;
+}
